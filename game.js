@@ -10,7 +10,7 @@ function x2() {
   if (pts >= 10) {
     clickVal *= 2;
     pts -= 10;
-    document.querySelector("button").style.display = "none";
+    document.getElementById("x2Upg").style.display = "none";
   } else {
     pts = pts;
   }
@@ -21,7 +21,7 @@ function x3() {
   if (pts >= 50) {
     clickVal *= 3;
     pts -= 50;
-    document.querySelector("button").style.display = "none";
+    document.getElementById("x3Upg").style.display = "none";
   } else {
     pts = pts;
   }
