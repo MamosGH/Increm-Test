@@ -18,8 +18,15 @@ function x2() {
 function x3() {
   if (pts >= 50) {
     clickVal *= 3;
-    pts -= 50;
+    pts -= 50**(lvl+1);
+    lvl++;
   } else {
     pts = pts;
 } document.getElementById("ptsVal").innerHTML = "points: " + pts.toString();
+}
+
+if (x2() = true) {
+  document.querySelector("button").innerHTML.style = "display: block;"
+} else if (x3() = true) {
+  document.querySelector("button").innerHTML.style = "display: block;"
 }
